@@ -19,6 +19,6 @@ mk ferryman $SH/pack1/robot9-three.png $SH/pack1/robot9-back.png
 mk heron $SH/robot7-three.png $SH/robot7-back.png
 # garage steps
 G=/Users/dimitur/dev/guns-and-robots-rebith/shots/garage
-ffmpeg -loglevel error -y -i $G/rich-store-1080.png -vf "scale=960:-1:flags=lanczos" -f image2pipe -vcodec png - | cwebp -quiet -q 80 -o "$OUT/step-store.webp" -- -
-ffmpeg -loglevel error -y -i $G/rich-build-octo-1080.png -vf "scale=960:-1:flags=lanczos" -f image2pipe -vcodec png - | cwebp -quiet -q 80 -o "$OUT/step-build.webp" -- -
+ffmpeg -loglevel error -y -i "$OUT/../../capture/ui-store.png" -vf "scale=1280:-1:flags=lanczos" -f image2pipe -vcodec png - | cwebp -quiet -q 82 -o "$OUT/step-store.webp" -- -
+ffmpeg -loglevel error -y -i "$OUT/../../capture/ui-build.png" -vf "scale=1280:-1:flags=lanczos" -f image2pipe -vcodec png - | cwebp -quiet -q 82 -o "$OUT/step-build.webp" -- -
 ls -la "$OUT" | head -30
