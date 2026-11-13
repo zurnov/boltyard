@@ -1,0 +1,165 @@
+[
+ {
+  "id": "small",
+  "label": "Small",
+  "l": {
+   "name": "Patchwork",
+   "chassis": {
+    "frame": "scoot",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "tin",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    }
+   ],
+   "devices": [
+    "mine",
+    null
+   ]
+  }
+ },
+ {
+  "id": "medium",
+  "label": "Medium",
+  "l": {
+   "name": "Boomer",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "piercer"
+     ]
+    }
+   ],
+   "devices": [
+    "bulkhead",
+    null
+   ]
+  }
+ },
+ {
+  "id": "huge",
+  "label": "Huge \u00b7 4 arms",
+  "l": {
+   "name": "Quadgun",
+   "chassis": {
+    "frame": "colossus",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "quad",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "periscope",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "lancet"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    }
+   ],
+   "devices": [
+    "pal",
+    null
+   ]
+  }
+ },
+ {
+  "id": "twins",
+  "label": "Twins",
+  "l": {
+   "name": "Twins",
+   "chassis": {
+    "frame": "dasher",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "goggles",
+   "weapons": [
+    {
+     "mechanism": "twin",
+     "barrels": [
+      "slugger",
+      "slugger"
+     ]
+    },
+    {
+     "mechanism": "twin",
+     "barrels": [
+      "arc",
+      "arc"
+     ]
+    }
+   ],
+   "devices": [
+    "tarmine",
+    "ping"
+   ],
+   "paint": {
+    "all": "#d98a52",
+    "chassis": "#4f9e94"
+   }
+  }
+ }
+]

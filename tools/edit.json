@@ -1,0 +1,255 @@
+{
+ "trailer": {
+  "w": 1920,
+  "h": 1080,
+  "fps": 30,
+  "crf": 24,
+  "segments": [
+   {
+    "card": "open",
+    "seconds": 2.4,
+    "raw": true
+   },
+   {
+    "shot": "wrenfield2-crane",
+    "in": 0.0,
+    "out": 0.48,
+    "fadein": 0.4
+   },
+   {
+    "shot": "frostworks2-dive",
+    "in": 0.3,
+    "out": 0.85
+   },
+   {
+    "card": "build",
+    "seconds": 1.0,
+    "raw": true
+   },
+   {
+    "shot": "garage-assemble",
+    "in": 0.02,
+    "out": 0.4,
+    "speed": 1.7
+   },
+   {
+    "card": "bolt",
+    "seconds": 1.0,
+    "raw": true
+   },
+   {
+    "shot": "garage-assemble",
+    "in": 0.42,
+    "out": 0.86,
+    "speed": 2.2
+   },
+   {
+    "card": "break",
+    "seconds": 1.0,
+    "raw": true
+   },
+   {
+    "shot": "wrenfield2-chase-b",
+    "in": 0.1,
+    "out": 0.55
+   },
+   {
+    "shot": "frostworks2-slow",
+    "in": 0.0,
+    "out": 0.8
+   },
+   {
+    "shot": "wrenfield2-hero2",
+    "in": 0.27,
+    "out": 0.56
+   },
+   {
+    "shot": "frostworks2-chase-b",
+    "in": 0.3,
+    "out": 0.82
+   },
+   {
+    "shot": "foundry2-orbit",
+    "in": 0.0,
+    "out": 0.45
+   },
+   {
+    "shot": "drydock2-slow",
+    "in": 0.0,
+    "out": 0.8
+   },
+   {
+    "shot": "gulch2-hero2",
+    "in": 0.0,
+    "out": 0.34
+   },
+   {
+    "shot": "foundry2-hero2",
+    "in": 0.72,
+    "out": 1.0
+   },
+   {
+    "shot": "drydock2-duel",
+    "in": 0.3,
+    "out": 0.72
+   },
+   {
+    "shot": "gulch2-hud",
+    "in": 0.33,
+    "out": 0.72,
+    "src_fps": 30
+   },
+   {
+    "shot": "foundry2-crane",
+    "in": 0.2,
+    "out": 0.55
+   },
+   {
+    "shot": "wrenfield2-dive",
+    "in": 0.47,
+    "out": 1.0,
+    "fadeout": 0.5
+   },
+   {
+    "card": "end",
+    "seconds": 3.2,
+    "raw": true
+   }
+  ]
+ },
+ "hero": {
+  "w": 1280,
+  "h": 720,
+  "fps": 30,
+  "crf": 27,
+  "segments": [
+   {
+    "shot": "wrenfield2-chase-b",
+    "in": 0.1,
+    "out": 0.5
+   },
+   {
+    "shot": "frostworks2-chase-b",
+    "in": 0.35,
+    "out": 0.75
+   },
+   {
+    "shot": "wrenfield2-hero2",
+    "in": 0.27,
+    "out": 0.56
+   },
+   {
+    "shot": "foundry2-orbit",
+    "in": 0.1,
+    "out": 0.42
+   },
+   {
+    "shot": "frostworks2-slow",
+    "in": 0.0,
+    "out": 0.75
+   },
+   {
+    "shot": "gulch2-hero2",
+    "in": 0.0,
+    "out": 0.34
+   },
+   {
+    "shot": "drydock2-slow",
+    "in": 0.0,
+    "out": 0.75
+   }
+  ]
+ },
+ "clip-1": {
+  "w": 1280,
+  "h": 720,
+  "fps": 30,
+  "crf": 25,
+  "segments": [
+   {
+    "shot": "wrenfield2-hud",
+    "in": 0.34,
+    "out": 0.5,
+    "src_fps": 30,
+    "raw": true
+   },
+   {
+    "shot": "gulch2-hud",
+    "in": 0.33,
+    "out": 0.76,
+    "src_fps": 30,
+    "raw": true
+   }
+  ]
+ },
+ "clip-2": {
+  "w": 1280,
+  "h": 720,
+  "fps": 30,
+  "crf": 25,
+  "segments": [
+   {
+    "shot": "frostworks2-slow",
+    "in": 0.0,
+    "out": 1.0
+   },
+   {
+    "shot": "drydock2-slow",
+    "in": 0.0,
+    "out": 1.0
+   },
+   {
+    "shot": "foundry2-slow",
+    "in": 0.0,
+    "out": 1.0
+   }
+  ]
+ },
+ "clip-3": {
+  "w": 1280,
+  "h": 720,
+  "fps": 30,
+  "crf": 26,
+  "segments": [
+   {
+    "shot": "wrenfield2-crane",
+    "in": 0.05,
+    "out": 0.4
+   },
+   {
+    "shot": "foundry2-crane",
+    "in": 0.1,
+    "out": 0.45
+   },
+   {
+    "shot": "frostworks2-crane",
+    "in": 0.1,
+    "out": 0.45
+   },
+   {
+    "shot": "drydock2-crane",
+    "in": 0.1,
+    "out": 0.45
+   },
+   {
+    "shot": "gulch2-crane",
+    "in": 0.05,
+    "out": 0.3
+   }
+  ]
+ },
+ "assemble": {
+  "w": 1280,
+  "h": 720,
+  "fps": 30,
+  "crf": 25,
+  "segments": [
+   {
+    "shot": "garage-assemble",
+    "in": 0.0,
+    "out": 1.0,
+    "speed": 1.15
+   }
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+# BOLTYARD
+
+> BOLTYARD is a fan-made, third-person robot arena game for the web browser, inspired by the online game Guns and Robots. Players build a robot from parts in a garage and fight 1v1 to 5v5 team battles where every module can be shot off. It is in development by Dimitar Zurnov, who is looking for collaborators. It is not affiliated with the makers of Guns and Robots.
+
+## Key facts
+
+- Genre: robot building + third-person arena shooter (vehicular combat)
+- Platform: web browser (Chrome, Edge, Firefox); runs on TypeScript, Three.js, Rapier physics and a Node.js authoritative server
+- Content: 76 robot parts, 24 weapons in 14 families (rockets, mortars, cluster bombs, flamethrowers, gatling, beams, chain lightning, snipers, ricochet), 12 chassis types (wheels, six wheels, tracks, walkers, spider legs, stilts, hover, rollers), 9 devices
+- Builds: 182,658,347,827,200 legal robot combinations (before paint and upgrade levels)
+- Modes: Team Deathmatch, Battery Run, Bomb Squad, King of the Yard, plus a Test Yard
+- Arenas: five large three-level maps of about 200 × 144 m: Foundry (ironworks), Gulch (canyon rail town), Drydock (orbital cargo bay), Frostworks (ice quarry), Wrenfield (small town); enterable buildings and roofs robots can drive onto
+- Damage: each module (chassis, body, head, each weapon) has its own durability; weapons fall off, broken chassis limp, broken heads scramble controls
+- Art: every mesh, texture, sound and music track is generated in code; no art assets from other games
+- Status: in development, privately tested with friends; not publicly playable yet
+- Creator: Dimitar Zurnov, software engineer (https://zurnov.com, https://github.com/zurnov, https://linkedin.com/in/zurnov)
+
+## How to get involved
+
+- Say hi or offer help: https://github.com/zurnov/boltyard/issues
+- Contact the creator: https://linkedin.com/in/zurnov or https://zurnov.com
+
+## Pages
+
+- [Home](https://zurnov.github.io/boltyard/): trailer, screenshots, robots, arenas, story, FAQ

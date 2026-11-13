@@ -1,0 +1,945 @@
+[
+ {
+  "id": "patchwork",
+  "name": "Patchwork",
+  "weight": "light",
+  "style": "Starter-style rapid fire skirmisher",
+  "loadout": {
+   "name": "Patchwork",
+   "chassis": {
+    "frame": "scoot",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "tin",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    }
+   ],
+   "devices": [
+    "mine",
+    null
+   ]
+  }
+ },
+ {
+  "id": "peppermill",
+  "name": "Peppermill",
+  "weight": "light",
+  "style": "Shotgun + precision walker, tars chasers",
+  "loadout": {
+   "name": "Peppermill",
+   "chassis": {
+    "frame": "stilt",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "tin",
+    "batteries": [
+     "dynamo"
+    ]
+   },
+   "head": "visor",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "pepper"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "dartline"
+     ]
+    }
+   ],
+   "devices": [
+    "tarmine",
+    null
+   ]
+  }
+ },
+ {
+  "id": "sparky",
+  "name": "Sparky",
+  "weight": "light",
+  "style": "Energy hover: zaps, leads needles, pings and drains",
+  "loadout": {
+   "name": "Sparky",
+   "chassis": {
+    "frame": "drift",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "tin",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "lantern",
+   "weapons": [
+    {
+     "mechanism": "twitch",
+     "barrels": [
+      "zapper"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "needle"
+     ]
+    }
+   ],
+   "devices": [
+    "ping",
+    "drainmine"
+   ]
+  }
+ },
+ {
+  "id": "skitter",
+  "name": "Skitter",
+  "weight": "light",
+  "style": "Fast cloaked flanker with spray and fizz",
+  "loadout": {
+   "name": "Skitter",
+   "chassis": {
+    "frame": "scoot",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "tin",
+    "batteries": [
+     "dynamo"
+    ]
+   },
+   "head": "visor",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "spritz"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "fizz"
+     ]
+    }
+   ],
+   "devices": [
+    "veil",
+    null
+   ]
+  }
+ },
+ {
+  "id": "rattletrap",
+  "name": "Rattletrap",
+  "weight": "light",
+  "style": "Rivet and scattergun rusher that pings ahead",
+  "loadout": {
+   "name": "Rattletrap",
+   "chassis": {
+    "frame": "scoot",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "tin",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "visor",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "pepper"
+     ]
+    }
+   ],
+   "devices": [
+    "ping",
+    null
+   ]
+  }
+ },
+ {
+  "id": "gnat",
+  "name": "Gnat",
+  "weight": "light",
+  "style": "Hovering zapper with a rivet backup",
+  "loadout": {
+   "name": "Gnat",
+   "chassis": {
+    "frame": "drift",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "tin",
+    "batteries": [
+     "dynamo"
+    ]
+   },
+   "head": "lantern",
+   "weapons": [
+    {
+     "mechanism": "twitch",
+     "barrels": [
+      "zapper"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    }
+   ],
+   "devices": [
+    "mine",
+    null
+   ]
+  }
+ },
+ {
+  "id": "picket",
+  "name": "Picket",
+  "weight": "light",
+  "style": "Patient dart rifle with a rivet, mines its lane",
+  "loadout": {
+   "name": "Picket",
+   "chassis": {
+    "frame": "scoot",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "tin",
+    "batteries": [
+     "tank"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "dartline"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    }
+   ],
+   "devices": [
+    "mine",
+    null
+   ]
+  }
+ },
+ {
+  "id": "scorcher",
+  "name": "Scorcher",
+  "weight": "medium",
+  "style": "Flame brawler on wheels",
+  "loadout": {
+   "name": "Scorcher",
+   "chassis": {
+    "frame": "dasher",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "tank"
+    ]
+   },
+   "head": "visor",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "furnace"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    }
+   ],
+   "devices": [
+    "mine",
+    null
+   ]
+  }
+ },
+ {
+  "id": "boomer",
+  "name": "Boomer",
+  "weight": "medium",
+  "style": "Rocket volleys and wall-piercing shots behind a bulkhead",
+  "loadout": {
+   "name": "Boomer",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "piercer"
+     ]
+    }
+   ],
+   "devices": [
+    "bulkhead",
+    null
+   ]
+  }
+ },
+ {
+  "id": "longneck",
+  "name": "Longneck",
+  "weight": "medium",
+  "style": "Mid-range marksman: lancet + piercer, radar, mines its perch",
+  "loadout": {
+   "name": "Longneck",
+   "chassis": {
+    "frame": "strut",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "tank"
+    ]
+   },
+   "head": "periscope",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "lancet"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "piercer"
+     ]
+    }
+   ],
+   "devices": [
+    "ping",
+    "mine"
+   ]
+  }
+ },
+ {
+  "id": "mauler",
+  "name": "Mauler",
+  "weight": "medium",
+  "style": "Tracked close-range bruiser: flame and rockets",
+  "loadout": {
+   "name": "Mauler",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "lantern",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "tarmine",
+    "bulkhead"
+   ]
+  }
+ },
+ {
+  "id": "warden",
+  "name": "Warden",
+  "weight": "heavy",
+  "style": "Slow artillery: haymaker + longshot, lob turret",
+  "loadout": {
+   "name": "Warden",
+   "chassis": {
+    "frame": "bulwark",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "vault",
+    "batteries": [
+     "tank"
+    ]
+   },
+   "head": "visor",
+   "weapons": [
+    {
+     "mechanism": "yoke",
+     "barrels": [
+      "haymaker"
+     ]
+    },
+    {
+     "mechanism": "sling",
+     "barrels": [
+      "longshot"
+     ]
+    }
+   ],
+   "devices": [
+    "lob",
+    null
+   ]
+  }
+ },
+ {
+  "id": "octopus",
+  "name": "Octopus",
+  "weight": "medium",
+  "style": "Four light guns of every kind",
+  "loadout": {
+   "name": "Octopus",
+   "chassis": {
+    "frame": "strut",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "octo",
+    "batteries": [
+     "cell",
+     "dynamo"
+    ]
+   },
+   "head": "lantern",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "spritz"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "fizz"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "pepper"
+     ]
+    }
+   ],
+   "devices": [
+    "mine",
+    null
+   ]
+  }
+ },
+ {
+  "id": "torchbearer",
+  "name": "Torchbearer",
+  "weight": "medium",
+  "style": "Sprayers and a zapper, cloaks in, torch turret on arrival",
+  "loadout": {
+   "name": "Torchbearer",
+   "chassis": {
+    "frame": "strut",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "octo",
+    "batteries": [
+     "tank",
+     "dynamo"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "spritz"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "spritz"
+     ]
+    },
+    {
+     "mechanism": "twitch",
+     "barrels": [
+      "zapper"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    }
+   ],
+   "devices": [
+    "torch",
+    "veil"
+   ]
+  }
+ },
+ {
+  "id": "quadgun",
+  "name": "Quadgun",
+  "weight": "heavy",
+  "style": "Walking gun platform: drills, lancet, flame, pal turret",
+  "loadout": {
+   "name": "Quadgun",
+   "chassis": {
+    "frame": "colossus",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "quad",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "periscope",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "lancet"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    }
+   ],
+   "devices": [
+    "pal",
+    null
+   ]
+  }
+ },
+ {
+  "id": "bastion",
+  "name": "Bastion",
+  "weight": "heavy",
+  "style": "Fortress of drills and rivets holding ground with a pal turret",
+  "loadout": {
+   "name": "Bastion",
+   "chassis": {
+    "frame": "colossus",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "fortress",
+    "batteries": [
+     "tank",
+     "cell"
+    ]
+   },
+   "head": "visor",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "rivet"
+     ]
+    }
+   ],
+   "devices": [
+    "pal",
+    null
+   ]
+  }
+ },
+ {
+  "id": "stitcher",
+  "name": "Stitcher",
+  "weight": "light",
+  "style": "Tracked burst-rifle skirmisher with a bouncing Skipper for corners",
+  "loadout": {
+   "name": "Stitcher",
+   "chassis": {
+    "frame": "crawler",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "crate",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "goggles",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "stitch"
+     ]
+    },
+    {
+     "mechanism": "steady",
+     "barrels": [
+      "skipper"
+     ]
+    }
+   ],
+   "devices": [
+    "mine",
+    null
+   ]
+  }
+ },
+ {
+  "id": "sparkplug",
+  "name": "Sparkplug",
+  "weight": "light",
+  "style": "Close-in energy scattergun rusher with a burst rifle; tars its chasers",
+  "loadout": {
+   "name": "Sparkplug",
+   "chassis": {
+    "frame": "stilt",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "crate",
+    "batteries": [
+     "cell",
+     "dynamo"
+    ]
+   },
+   "head": "kettle",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "sparkler"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "stitch"
+     ]
+    }
+   ],
+   "devices": [
+    "tarmine",
+    null
+   ]
+  }
+ },
+ {
+  "id": "mortarman",
+  "name": "Mortarman",
+  "weight": "medium",
+  "style": "Hovering mortar: drops Thumper shells over cover, Slugger up close",
+  "loadout": {
+   "name": "Mortarman",
+   "chassis": {
+    "frame": "skimmer",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "boiler",
+    "batteries": [
+     "tank"
+    ]
+   },
+   "head": "beacon",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "thumper"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "slugger"
+     ]
+    }
+   ],
+   "devices": [
+    "ping",
+    null
+   ]
+  }
+ },
+ {
+  "id": "arcwelder",
+  "name": "Arcwelder",
+  "weight": "medium",
+  "style": "Twin Arc brawler (bolts jump between huddled enemies) with a Slugger",
+  "loadout": {
+   "name": "Arcwelder",
+   "chassis": {
+    "frame": "dasher",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "boiler",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "goggles",
+   "weapons": [
+    {
+     "mechanism": "twin",
+     "barrels": [
+      "arc",
+      "arc"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "slugger"
+     ]
+    }
+   ],
+   "devices": [
+    "tarmine",
+    null
+   ]
+  }
+ },
+ {
+  "id": "gatling",
+  "name": "Gatling",
+  "weight": "heavy",
+  "style": "Rolling rotary gun: spins up the Churn and holds the trigger",
+  "loadout": {
+   "name": "Gatling",
+   "chassis": {
+    "frame": "roller",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "citadel",
+    "batteries": [
+     "tank",
+     "cell"
+    ]
+   },
+   "head": "beacon",
+   "weapons": [
+    {
+     "mechanism": "ram",
+     "barrels": [
+      "churn"
+     ]
+    },
+    {
+     "mechanism": "yoke",
+     "barrels": [
+      "scatterpack"
+     ]
+    }
+   ],
+   "devices": [
+    "bulkhead",
+    null
+   ]
+  }
+ },
+ {
+  "id": "lighthouse",
+  "name": "Lighthouse",
+  "weight": "heavy",
+  "style": "Hover raft with a Sunbeam and cluster shells; rests the beam to recharge",
+  "loadout": {
+   "name": "Lighthouse",
+   "chassis": {
+    "frame": "raft",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "citadel",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "beacon",
+   "weapons": [
+    {
+     "mechanism": "ram",
+     "barrels": [
+      "sunbeam"
+     ]
+    },
+    {
+     "mechanism": "sling",
+     "barrels": [
+      "scatterpack"
+     ]
+    }
+   ],
+   "devices": [
+    "ping",
+    null
+   ]
+  }
+ },
+ {
+  "id": "hailstorm",
+  "name": "Hailstorm",
+  "weight": "medium",
+  "style": "Four light pack-1 guns: bursts, skippers and a sparkler",
+  "loadout": {
+   "name": "Hailstorm",
+   "chassis": {
+    "frame": "strut",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "octo",
+    "batteries": [
+     "cell",
+     "dynamo"
+    ]
+   },
+   "head": "kettle",
+   "weapons": [
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "stitch"
+     ]
+    },
+    {
+     "mechanism": "steady",
+     "barrels": [
+      "skipper"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "sparkler"
+     ]
+    },
+    {
+     "mechanism": "grip",
+     "barrels": [
+      "stitch"
+     ]
+    }
+   ],
+   "devices": [
+    "mine",
+    null
+   ]
+  }
+ }
+]

@@ -1,0 +1,1252 @@
+[
+ {
+  "map": "foundry2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "foundry2-chase-a",
+  "seed": 11,
+  "type": "chase",
+  "seconds": 5,
+  "stage": {
+   "dmin": 12,
+   "dmax": 18,
+   "pair": 2,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Boomer",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "bulkhead",
+    null
+   ]
+  }
+ },
+ {
+  "map": "foundry2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "foundry2-duel",
+  "seed": 37,
+  "type": "duel",
+  "seconds": 5,
+  "height": 2.2,
+  "stage": {
+   "dmin": 10,
+   "dmax": 17,
+   "pair": 0,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Quadgun",
+   "chassis": {
+    "frame": "colossus",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "quad",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "periscope",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "lancet"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    }
+   ],
+   "devices": [
+    "pal",
+    null
+   ]
+  }
+ },
+ {
+  "map": "foundry2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "foundry2-hero",
+  "seed": 53,
+  "type": "hero",
+  "dist": 5.5,
+  "off": 2.4,
+  "height": 1,
+  "push": 1.2,
+  "fov": 38,
+  "seconds": 5,
+  "stage": {
+   "dmin": 13,
+   "dmax": 18,
+   "pair": 3,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Mauler",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "lantern",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "tarmine",
+    "bulkhead"
+   ]
+  }
+ },
+ {
+  "map": "foundry2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "foundry2-slow",
+  "seed": 71,
+  "type": "duel",
+  "seconds": 2.5,
+  "slow": 4,
+  "k": 0.7,
+  "height": 1.6,
+  "stage": {
+   "dmin": 8,
+   "dmax": 13,
+   "pair": 1,
+   "clear": 24
+  },
+  "lead": 0.6,
+  "loadout": {
+   "name": "Lighthouse",
+   "chassis": {
+    "frame": "raft",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "citadel",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "beacon",
+   "weapons": [
+    {
+     "mechanism": "ram",
+     "barrels": [
+      "sunbeam"
+     ]
+    },
+    {
+     "mechanism": "sling",
+     "barrels": [
+      "scatterpack"
+     ]
+    }
+   ],
+   "devices": [
+    "ping",
+    null
+   ]
+  }
+ },
+ {
+  "map": "foundry2",
+  "still": 0.5,
+  "name": "foundry2-crane",
+  "seed": 5,
+  "type": "path",
+  "skip": 8,
+  "seconds": 7,
+  "fov": 48,
+  "from": [
+   [
+    -95,
+    66,
+    -79.2
+   ],
+   [
+    -6,
+    0,
+    0
+   ]
+  ],
+  "to": [
+   [
+    35,
+    56,
+    -77.76
+   ],
+   [
+    8,
+    0,
+    6
+   ]
+  ]
+ },
+ {
+  "map": "gulch2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "gulch2-chase-a",
+  "seed": 11,
+  "type": "chase",
+  "seconds": 5,
+  "stage": {
+   "dmin": 12,
+   "dmax": 18,
+   "pair": 2,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Boomer",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "bulkhead",
+    null
+   ]
+  }
+ },
+ {
+  "map": "gulch2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "gulch2-duel",
+  "seed": 37,
+  "type": "duel",
+  "seconds": 5,
+  "height": 2.2,
+  "stage": {
+   "dmin": 10,
+   "dmax": 17,
+   "pair": 0,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Quadgun",
+   "chassis": {
+    "frame": "colossus",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "quad",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "periscope",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "lancet"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    }
+   ],
+   "devices": [
+    "pal",
+    null
+   ]
+  }
+ },
+ {
+  "map": "gulch2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "gulch2-hero",
+  "seed": 53,
+  "type": "hero",
+  "dist": 5.5,
+  "off": 2.4,
+  "height": 1,
+  "push": 1.2,
+  "fov": 38,
+  "seconds": 5,
+  "stage": {
+   "dmin": 13,
+   "dmax": 18,
+   "pair": 3,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Mauler",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "lantern",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "tarmine",
+    "bulkhead"
+   ]
+  }
+ },
+ {
+  "map": "gulch2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "gulch2-slow",
+  "seed": 71,
+  "type": "duel",
+  "seconds": 2.5,
+  "slow": 4,
+  "k": 0.7,
+  "height": 1.6,
+  "stage": {
+   "dmin": 8,
+   "dmax": 13,
+   "pair": 1,
+   "clear": 24
+  },
+  "lead": 0.6,
+  "loadout": {
+   "name": "Lighthouse",
+   "chassis": {
+    "frame": "raft",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "citadel",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "beacon",
+   "weapons": [
+    {
+     "mechanism": "ram",
+     "barrels": [
+      "sunbeam"
+     ]
+    },
+    {
+     "mechanism": "sling",
+     "barrels": [
+      "scatterpack"
+     ]
+    }
+   ],
+   "devices": [
+    "ping",
+    null
+   ]
+  }
+ },
+ {
+  "map": "gulch2",
+  "still": 0.5,
+  "name": "gulch2-crane",
+  "seed": 5,
+  "type": "path",
+  "skip": 8,
+  "seconds": 7,
+  "fov": 48,
+  "from": [
+   [
+    -96.89999999999999,
+    66,
+    -77
+   ],
+   [
+    -6,
+    0,
+    0
+   ]
+  ],
+  "to": [
+   [
+    35.699999999999996,
+    56,
+    -75.60000000000001
+   ],
+   [
+    8,
+    0,
+    6
+   ]
+  ]
+ },
+ {
+  "map": "drydock2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "drydock2-chase-a",
+  "seed": 11,
+  "type": "chase",
+  "seconds": 5,
+  "stage": {
+   "dmin": 12,
+   "dmax": 18,
+   "pair": 2,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Boomer",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "bulkhead",
+    null
+   ]
+  }
+ },
+ {
+  "map": "drydock2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "drydock2-duel",
+  "seed": 37,
+  "type": "duel",
+  "seconds": 5,
+  "height": 2.2,
+  "stage": {
+   "dmin": 10,
+   "dmax": 17,
+   "pair": 0,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Quadgun",
+   "chassis": {
+    "frame": "colossus",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "quad",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "periscope",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "lancet"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    }
+   ],
+   "devices": [
+    "pal",
+    null
+   ]
+  }
+ },
+ {
+  "map": "drydock2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "drydock2-hero",
+  "seed": 53,
+  "type": "hero",
+  "dist": 5.5,
+  "off": 2.4,
+  "height": 1,
+  "push": 1.2,
+  "fov": 38,
+  "seconds": 5,
+  "stage": {
+   "dmin": 13,
+   "dmax": 18,
+   "pair": 3,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Mauler",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "lantern",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "tarmine",
+    "bulkhead"
+   ]
+  }
+ },
+ {
+  "map": "drydock2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "drydock2-slow",
+  "seed": 71,
+  "type": "duel",
+  "seconds": 2.5,
+  "slow": 4,
+  "k": 0.7,
+  "height": 1.6,
+  "stage": {
+   "dmin": 8,
+   "dmax": 13,
+   "pair": 1,
+   "clear": 24
+  },
+  "lead": 0.6,
+  "loadout": {
+   "name": "Lighthouse",
+   "chassis": {
+    "frame": "raft",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "citadel",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "beacon",
+   "weapons": [
+    {
+     "mechanism": "ram",
+     "barrels": [
+      "sunbeam"
+     ]
+    },
+    {
+     "mechanism": "sling",
+     "barrels": [
+      "scatterpack"
+     ]
+    }
+   ],
+   "devices": [
+    "ping",
+    null
+   ]
+  }
+ },
+ {
+  "map": "drydock2",
+  "still": 0.5,
+  "name": "drydock2-crane",
+  "seed": 5,
+  "type": "path",
+  "skip": 8,
+  "seconds": 7,
+  "fov": 48,
+  "from": [
+   [
+    -98.8,
+    66,
+    -79.2
+   ],
+   [
+    -6,
+    0,
+    0
+   ]
+  ],
+  "to": [
+   [
+    36.4,
+    56,
+    -77.76
+   ],
+   [
+    8,
+    0,
+    6
+   ]
+  ]
+ },
+ {
+  "map": "frostworks2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "frostworks2-chase-a",
+  "seed": 11,
+  "type": "chase",
+  "seconds": 5,
+  "stage": {
+   "dmin": 12,
+   "dmax": 18,
+   "pair": 2,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Boomer",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "bulkhead",
+    null
+   ]
+  }
+ },
+ {
+  "map": "frostworks2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "frostworks2-duel",
+  "seed": 37,
+  "type": "duel",
+  "seconds": 5,
+  "height": 2.2,
+  "stage": {
+   "dmin": 10,
+   "dmax": 17,
+   "pair": 0,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Quadgun",
+   "chassis": {
+    "frame": "colossus",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "quad",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "periscope",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "lancet"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    }
+   ],
+   "devices": [
+    "pal",
+    null
+   ]
+  }
+ },
+ {
+  "map": "frostworks2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "frostworks2-hero",
+  "seed": 53,
+  "type": "hero",
+  "dist": 5.5,
+  "off": 2.4,
+  "height": 1,
+  "push": 1.2,
+  "fov": 38,
+  "seconds": 5,
+  "stage": {
+   "dmin": 13,
+   "dmax": 18,
+   "pair": 3,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Mauler",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "lantern",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "tarmine",
+    "bulkhead"
+   ]
+  }
+ },
+ {
+  "map": "frostworks2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "frostworks2-slow",
+  "seed": 71,
+  "type": "duel",
+  "seconds": 2.5,
+  "slow": 4,
+  "k": 0.7,
+  "height": 1.6,
+  "stage": {
+   "dmin": 8,
+   "dmax": 13,
+   "pair": 1,
+   "clear": 24
+  },
+  "lead": 0.6,
+  "loadout": {
+   "name": "Lighthouse",
+   "chassis": {
+    "frame": "raft",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "citadel",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "beacon",
+   "weapons": [
+    {
+     "mechanism": "ram",
+     "barrels": [
+      "sunbeam"
+     ]
+    },
+    {
+     "mechanism": "sling",
+     "barrels": [
+      "scatterpack"
+     ]
+    }
+   ],
+   "devices": [
+    "ping",
+    null
+   ]
+  }
+ },
+ {
+  "map": "frostworks2",
+  "still": 0.5,
+  "name": "frostworks2-crane",
+  "seed": 5,
+  "type": "path",
+  "skip": 8,
+  "seconds": 7,
+  "fov": 48,
+  "from": [
+   [
+    -93.1,
+    66,
+    -81.4
+   ],
+   [
+    -6,
+    0,
+    0
+   ]
+  ],
+  "to": [
+   [
+    34.3,
+    56,
+    -79.92
+   ],
+   [
+    8,
+    0,
+    6
+   ]
+  ]
+ },
+ {
+  "map": "wrenfield2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "wrenfield2-chase-a",
+  "seed": 11,
+  "type": "chase",
+  "seconds": 5,
+  "stage": {
+   "dmin": 12,
+   "dmax": 18,
+   "pair": 2,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Boomer",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "bucket",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "bulkhead",
+    null
+   ]
+  }
+ },
+ {
+  "map": "wrenfield2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "wrenfield2-duel",
+  "seed": 37,
+  "type": "duel",
+  "seconds": 5,
+  "height": 2.2,
+  "stage": {
+   "dmin": 10,
+   "dmax": 17,
+   "pair": 0,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Quadgun",
+   "chassis": {
+    "frame": "colossus",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "quad",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "periscope",
+   "weapons": [
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "hammer"
+     ]
+    },
+    {
+     "mechanism": "clamp",
+     "barrels": [
+      "lancet"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    }
+   ],
+   "devices": [
+    "pal",
+    null
+   ]
+  }
+ },
+ {
+  "map": "wrenfield2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "wrenfield2-hero",
+  "seed": 53,
+  "type": "hero",
+  "dist": 5.5,
+  "off": 2.4,
+  "height": 1,
+  "push": 1.2,
+  "fov": 38,
+  "seconds": 5,
+  "stage": {
+   "dmin": 13,
+   "dmax": 18,
+   "pair": 3,
+   "clear": 24
+  },
+  "loadout": {
+   "name": "Mauler",
+   "chassis": {
+    "frame": "grinder",
+    "engine": "stocker"
+   },
+   "body": {
+    "shell": "keg",
+    "batteries": [
+     "cell"
+    ]
+   },
+   "head": "lantern",
+   "weapons": [
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "furnace"
+     ]
+    },
+    {
+     "mechanism": "brute",
+     "barrels": [
+      "volley"
+     ]
+    }
+   ],
+   "devices": [
+    "tarmine",
+    "bulkhead"
+   ]
+  }
+ },
+ {
+  "map": "wrenfield2",
+  "still": 0.5,
+  "maxD": 32,
+  "search": 25,
+  "name": "wrenfield2-slow",
+  "seed": 71,
+  "type": "duel",
+  "seconds": 2.5,
+  "slow": 4,
+  "k": 0.7,
+  "height": 1.6,
+  "stage": {
+   "dmin": 8,
+   "dmax": 13,
+   "pair": 1,
+   "clear": 24
+  },
+  "lead": 0.6,
+  "loadout": {
+   "name": "Lighthouse",
+   "chassis": {
+    "frame": "raft",
+    "engine": "hauler"
+   },
+   "body": {
+    "shell": "citadel",
+    "batteries": [
+     "cell",
+     "cell"
+    ]
+   },
+   "head": "beacon",
+   "weapons": [
+    {
+     "mechanism": "ram",
+     "barrels": [
+      "sunbeam"
+     ]
+    },
+    {
+     "mechanism": "sling",
+     "barrels": [
+      "scatterpack"
+     ]
+    }
+   ],
+   "devices": [
+    "ping",
+    null
+   ]
+  }
+ },
+ {
+  "map": "wrenfield2",
+  "still": 0.5,
+  "name": "wrenfield2-crane",
+  "seed": 5,
+  "type": "path",
+  "skip": 8,
+  "seconds": 7,
+  "fov": 48,
+  "from": [
+   [
+    -95,
+    66,
+    -79.2
+   ],
+   [
+    -6,
+    0,
+    0
+   ]
+  ],
+  "to": [
+   [
+    35,
+    56,
+    -77.76
+   ],
+   [
+    8,
+    0,
+    6
+   ]
+  ]
+ }
+]

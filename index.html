@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOLTYARD: a fan-made robot arena game inspired by Guns and Robots</title>
+<meta name="description" content="Fan-made browser game inspired by Guns and Robots: build a robot from 76 parts, then fight 5v5 battles where every part can be shot off. Looking for helpers.">
+<link rel="canonical" href="https://zurnov.github.io/boltyard/">
+<meta name="theme-color" content="#17130f">
+<meta name="author" content="Dimitar Zurnov">
+<meta name="robots" content="index, follow, max-image-preview:large, max-video-preview:-1">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BOLTYARD">
+<meta property="og:title" content="BOLTYARD: build a robot, break theirs">
+<meta property="og:description" content="A fan-made robot arena game inspired by Guns and Robots. Garage-built robots, 5v5 battles, part-by-part destruction. Looking for helpers.">
+<meta property="og:url" content="https://zurnov.github.io/boltyard/">
+<meta property="og:image" content="https://zurnov.github.io/boltyard/assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Two BOLTYARD robots trading rocket fire in The Foundry arena">
+<meta property="og:video" content="https://zurnov.github.io/boltyard/assets/video/trailer.mp4">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BOLTYARD: build a robot, break theirs">
+<meta name="twitter:description" content="A fan-made robot arena game inspired by Guns and Robots. Looking for helpers.">
+<meta name="twitter:image" content="https://zurnov.github.io/boltyard/assets/img/og.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/hero.webp" fetchpriority="high">
+<link rel="stylesheet" href="assets/site.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://zurnov.github.io/boltyard/#site",
+      "url": "https://zurnov.github.io/boltyard/",
+      "name": "BOLTYARD",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://zurnov.github.io/boltyard/#dimitar" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://zurnov.github.io/boltyard/#dimitar",
+      "name": "Dimitar Zurnov",
+      "jobTitle": "Software engineer",
+      "url": "https://zurnov.com",
+      "sameAs": ["https://github.com/zurnov", "https://linkedin.com/in/zurnov", "https://zurnov.com"]
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "https://zurnov.github.io/boltyard/#game",
+      "name": "BOLTYARD",
+      "url": "https://zurnov.github.io/boltyard/",
+      "description": "A fan-made, third-person robot arena game for the browser. Players assemble one of more than 182 trillion possible robots from 76 parts (frames, shells, weapons and devices) in a garage, then fight 1v1 to 5v5 team battles against bots or other players. Every module has its own durability, so robots fall apart piece by piece.",
+      "image": "https://zurnov.github.io/boltyard/assets/img/og.jpg",
+      "genre": ["Vehicular combat", "Third-person shooter", "Arena shooter", "Robot building"],
+      "gamePlatform": ["Web browser"],
+      "operatingSystem": "Any (Chrome, Edge, Firefox)",
+      "applicationCategory": "Game",
+      "playMode": ["SinglePlayer", "MultiPlayer"],
+      "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 10 },
+      "author": { "@id": "https://zurnov.github.io/boltyard/#dimitar" },
+      "creativeWorkStatus": "In development",
+      "isBasedOn": { "@type": "VideoGame", "name": "Guns and Robots" },
+      "keywords": "Guns and Robots, robot building game, robot arena, browser game, Three.js, fan remake",
+      "trailer": { "@id": "https://zurnov.github.io/boltyard/#trailer" }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://zurnov.github.io/boltyard/#trailer",
+      "name": "BOLTYARD gameplay trailer",
+      "description": "In-engine footage of BOLTYARD: robots built from parts trading rockets, flamethrowers and gatling fire across five large three-level arenas.",
+      "thumbnailUrl": "https://zurnov.github.io/boltyard/assets/img/og.jpg",
+      "contentUrl": "https://zurnov.github.io/boltyard/assets/video/trailer.mp4",
+      "uploadDate": "2026-11-13",
+      "duration": "PT51S"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://zurnov.github.io/boltyard/#faq",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is BOLTYARD?", "acceptedAnswer": { "@type": "Answer", "text": "BOLTYARD is a fan-made robot arena game that runs in the browser. You build a robot from parts in a garage (chassis, body, head, up to four weapons and two devices), then fight team battles of up to 5v5 in Team Deathmatch, Battery Run, Bomb Squad and King of the Yard." } },
+        { "@type": "Question", "name": "Is BOLTYARD a Guns and Robots remake?", "acceptedAnswer": { "@type": "Answer", "text": "It is inspired by Guns and Robots, but it is not a copy and it is not affiliated with that game's makers. Every model, texture, sound, map and line of code in BOLTYARD was made from scratch." } },
+        { "@type": "Question", "name": "Can I play BOLTYARD?", "acceptedAnswer": { "@type": "Answer", "text": "Not publicly yet. The game is in development and is being tested with friends on a private server. Contact Dimitar on GitHub or LinkedIn to get involved." } },
+        { "@type": "Question", "name": "How can I help?", "acceptedAnswer": { "@type": "Answer", "text": "Coders (TypeScript, Three.js), 3D and sound artists, level designers, testers and former Guns and Robots players are all welcome. Open an issue on github.com/zurnov/boltyard or message Dimitar, and he can add you to the game repository." } },
+        { "@type": "Question", "name": "What is BOLTYARD built with?", "acceptedAnswer": { "@type": "Answer", "text": "TypeScript, Vite, Three.js for rendering and Rapier for physics, with a Node.js authoritative server for online battles. Meshes, textures, sounds and music are generated in code, so the game ships with no art asset files." } }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <a class="logo" href="#top" aria-label="BOLTYARD home">BOLTYARD</a>
+  <nav aria-label="Sections">
+    <a href="#watch">Watch</a>
+    <a href="#builds">Builds</a>
+    <a href="#robots">Robots</a>
+    <a href="#arenas">Arenas</a>
+    <a href="#story">Story</a>
+    <a class="nav-cta" href="#join">Join in</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" aria-labelledby="hero-title">
+  <video class="hero-media" autoplay muted loop playsinline preload="auto" poster="assets/img/hero.webp" aria-hidden="true">
+    <source src="assets/video/hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero-shade"></div>
+  <div class="hero-copy wrap">
+    <p class="tag">Fan-made · in development · looking for helpers</p>
+    <h1 id="hero-title" class="disp">Build it.<br>Bolt it.<br><span>Break theirs.</span></h1>
+    <p class="hero-lead">A robot arena game for the browser. Build a robot from scrap in your garage, then take it into 5v5 battles where every bolt can be shot off.</p>
+    <div class="btns">
+      <a class="btn" href="#join">Help build it</a>
+      <a class="btn btn-dark" href="#watch"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Watch the trailer</a>
+    </div>
+  </div>
+</section>
+<div class="hazard" role="presentation"></div>
+
+<div class="wrap">
+  <dl class="stats">
+    <div><dt>possible robots</dt><dd>182T</dd></div>
+    <div><dt>robot parts</dt><dd>76</dd></div>
+    <div><dt>weapons</dt><dd>24</dd></div>
+    <div><dt>online team battles</dt><dd>5v5</dd></div>
+  </dl>
+</div>
+
+<section id="watch" class="block" aria-labelledby="watch-title">
+  <div class="wrap">
+    <h2 id="watch-title" class="disp">Watch it play</h2>
+    <p class="lead">Recorded in the game engine, with the real bots fighting. Nothing is pre-rendered.</p>
+    <figure class="trailer">
+      <video controls preload="none" playsinline poster="assets/img/trailer-poster.webp">
+        <source src="assets/video/trailer.mp4" type="video/mp4">
+      </video>
+    </figure>
+    <div class="clips">
+      <figure class="clip">
+        <video data-autoplay muted loop playsinline preload="none" poster="assets/img/clip-1.webp"><source src="assets/video/clip-1.mp4" type="video/mp4"></video>
+        <figcaption><b>Exactly what you see in battle</b><span>Third-person camera and the real HUD</span></figcaption>
+      </figure>
+      <figure class="clip">
+        <video data-autoplay muted loop playsinline preload="none" poster="assets/img/clip-2.webp"><source src="assets/video/clip-2.mp4" type="video/mp4"></video>
+        <figcaption><b>Rockets, slowed down</b><span>A volley lands at quarter speed</span></figcaption>
+      </figure>
+      <figure class="clip">
+        <video data-autoplay muted loop playsinline preload="none" poster="assets/img/clip-3.webp"><source src="assets/video/clip-3.mp4" type="video/mp4"></video>
+        <figcaption><b>Five big arenas</b><span>Three levels each, roofs included</span></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="block block-action" aria-labelledby="action-title">
+  <div class="wrap">
+    <h2 id="action-title" class="disp">Every bolt can break</h2>
+    <p class="lead">Each module has its own health. Shoot off a gun and it falls to the floor. Break a chassis and the robot limps. Break the head and the controls go haywire.</p>
+    <div class="bento" data-gallery>
+      <a class="b1" href="assets/img/act-1.webp"><img src="assets/img/act-1-sm.webp" alt="A rocket volley explodes against a tracked robot" loading="lazy" width="1280" height="720"></a>
+      <a class="b2" href="assets/img/act-2.webp"><img src="assets/img/act-2-sm.webp" alt="A roller robot fires a gatling gun past the camera" loading="lazy" width="1280" height="720"></a>
+      <a class="b3" href="assets/img/act-3.webp"><img src="assets/img/act-3-sm.webp" alt="Two robots duel across the arena floor" loading="lazy" width="1280" height="720"></a>
+      <a class="b4" href="assets/img/act-4.webp"><img src="assets/img/act-4-sm.webp" alt="Close-up of a heavy robot mid-battle" loading="lazy" width="1280" height="720"></a>
+      <a class="b5" href="assets/img/act-5.webp"><img src="assets/img/act-5-sm.webp" alt="Sparks and debris as a robot takes a direct hit" loading="lazy" width="1280" height="720"></a>
+    </div>
+  </div>
+</section>
+
+<section id="builds" class="block block-builds" aria-labelledby="builds-title">
+  <div class="wrap">
+    <div class="builds-top">
+      <div>
+        <h2 id="builds-title" class="disp">Build anything</h2>
+        <p class="lead">Pick a frame, an engine, a shell, batteries and a head, then fill every arm with a weapon and every pod with a gadget. Each part drops onto the turntable as you fit it.</p>
+        <p class="count"><span class="disp">182,658,347,827,200</span> different robots</p>
+        <p class="count-note">That's every legal combination of the game's 76 parts, before paint colours and upgrade levels.</p>
+      </div>
+      <figure class="assemble">
+        <video data-autoplay muted loop playsinline preload="none" poster="assets/img/assemble.webp"><source src="assets/video/assemble.mp4" type="video/mp4"></video>
+      </figure>
+    </div>
+    <h3 class="wall-title">Four ways to build</h3>
+    <ul class="wall" role="list">
+      <li><img src="assets/img/feat-small.webp" alt="Patchwork, a small robot: tin shell on a scooter frame with two rivet guns" loading="lazy" width="640" height="800"><em>Small</em><b>Patchwork</b><span>Scooter · 2 rivet guns</span></li>
+      <li><img src="assets/img/feat-medium.webp" alt="Boomer, a medium robot: keg shell on tank tracks with a rocket volley and a wall-piercing gun" loading="lazy" width="640" height="800"><em>Medium</em><b>Boomer</b><span>Tracks · rockets + piercer</span></li>
+      <li><img src="assets/img/feat-huge.webp" alt="Quadgun, a huge four-armed robot on heavy walker legs with hammers, a lancet and a furnace" loading="lazy" width="640" height="800"><em>Huge · 4 arms</em><b>Quadgun</b><span>Heavy walker · 4 guns</span></li>
+      <li><img src="assets/img/feat-twins.webp" alt="Twins: six-wheeled robot with twin-barrel sluggers and twin arc guns" loading="lazy" width="640" height="800"><em>Twin guns</em><b>Twins</b><span>Six wheels · 2 twin-barrel guns</span></li>
+    </ul>
+  </div>
+</section>
+
+<section id="robots" class="block block-roster" aria-labelledby="robots-title">
+  <div class="wrap">
+    <h2 id="robots-title" class="disp">Meet the scrap heap</h2>
+    <p class="lead">Wheels, legs, tracks, a hover raft or one giant roller. Bolt on up to four guns, two gadgets, a battery and a head. Hover a robot to turn it around.</p>
+    <ul class="roster" role="list">
+      <li><figure><img src="assets/img/bot-old-stomper.webp" data-alt-src="assets/img/bot-old-stomper-alt.webp" alt="Old Stomper, a heavy red walker robot with a long rifle and a cannon" loading="lazy" width="640" height="640"><figcaption><b>Old Stomper</b><span>Heavy walker</span></figcaption></figure></li>
+      <li><figure><img src="assets/img/bot-tankard.webp" data-alt-src="assets/img/bot-tankard-alt.webp" alt="Tankard, a green four-gun robot on heavy tracks" loading="lazy" width="640" height="640"><figcaption><b>Tankard</b><span>Heavy tracks</span></figcaption></figure></li>
+      <li><figure><img src="assets/img/bot-skitter.webp" data-alt-src="assets/img/bot-skitter-alt.webp" alt="Skitter, a blue robot on four spider legs" loading="lazy" width="640" height="640"><figcaption><b>Skitter</b><span>Spider legs</span></figcaption></figure></li>
+      <li><figure><img src="assets/img/bot-steamhammer.webp" data-alt-src="assets/img/bot-steamhammer-alt.webp" alt="Steamhammer, a castle-shaped robot on a road roller" loading="lazy" width="640" height="640"><figcaption><b>Steamhammer</b><span>Roller</span></figcaption></figure></li>
+      <li><figure><img src="assets/img/bot-patch.webp" data-alt-src="assets/img/bot-patch-alt.webp" alt="Patch, the orange starter robot on four wheels" loading="lazy" width="640" height="640"><figcaption><b>Patch</b><span>Wheels · starter</span></figcaption></figure></li>
+      <li><figure><img src="assets/img/bot-rally-rex.webp" data-alt-src="assets/img/bot-rally-rex-alt.webp" alt="Rally Rex, a yellow robot on six wheels" loading="lazy" width="640" height="640"><figcaption><b>Rally Rex</b><span>Six wheels</span></figcaption></figure></li>
+      <li><figure><img src="assets/img/bot-ferryman.webp" data-alt-src="assets/img/bot-ferryman-alt.webp" alt="Ferryman, a cream robot with a gatling gun on a hover raft" loading="lazy" width="640" height="640"><figcaption><b>Ferryman</b><span>Hover raft</span></figcaption></figure></li>
+      <li><figure><img src="assets/img/bot-heron.webp" data-alt-src="assets/img/bot-heron-alt.webp" alt="Heron, a robot with a lantern head on bird-like stilts" loading="lazy" width="640" height="640"><figcaption><b>Heron</b><span>Stilts</span></figcaption></figure></li>
+    </ul>
+  </div>
+</section>
+<div class="hazard" role="presentation"></div>
+
+<section class="block" aria-labelledby="loop-title">
+  <div class="wrap">
+    <h2 id="loop-title" class="disp">Garage, workbench, arena</h2>
+    <ol class="steps" role="list">
+      <li>
+        <img src="assets/img/step-store.webp" alt="The parts store in the garage" loading="lazy" width="960" height="540">
+        <h3>Buy the parts</h3>
+        <p>Frames, shells, weapon mechanisms, barrels, batteries, heads and gadgets. Your level unlocks more.</p>
+      </li>
+      <li>
+        <img src="assets/img/step-build.webp" alt="Building a four-armed robot on the workbench" loading="lazy" width="960" height="540">
+        <h3>Bolt it together</h3>
+        <p>Turn parts into modules on the workbench, stack them into a robot and watch the weight limit.</p>
+      </li>
+      <li>
+        <img src="assets/img/step-arena.webp" alt="A robot in battle with the HUD showing durability and ammo" loading="lazy" width="960" height="540">
+        <h3>Take it to the arena</h3>
+        <p>One life per round. Team Deathmatch, Battery Run, Bomb Squad or King of the Yard, against bots or friends online.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="arenas" class="block block-arenas" aria-labelledby="arenas-title">
+  <div class="wrap">
+    <h2 id="arenas-title" class="disp">Five places to lose a wheel</h2>
+    <p class="lead">Every arena is about 200 × 144 m with three levels: a sunken floor, the street and the rooftops. Ramps, lifts, jump pads, buildings you can drive into, and props you can blow up.</p>
+    <div class="arenas" data-gallery>
+      <a class="arena arena-wide" href="assets/img/map-wrenfield.webp"><img src="assets/img/map-wrenfield-sm.webp" alt="Wrenfield, a small town with a church, a clock tower and a wooded hill" loading="lazy" width="1280" height="720"><span><b>Wrenfield</b>A small town: the culvert, the streets, the bandstand and the footbridge</span></a>
+      <a class="arena" href="assets/img/map-foundry.webp"><img src="assets/img/map-foundry-sm.webp" alt="Foundry, an ironworks with smoking chimneys and a casting hall" loading="lazy" width="1280" height="720"><span><b>Foundry</b>Ironworks</span></a>
+      <a class="arena" href="assets/img/map-frostworks.webp"><img src="assets/img/map-frostworks-sm.webp" alt="Frostworks, an ice quarry bowl with a bridge over frozen water" loading="lazy" width="1280" height="720"><span><b>Frostworks</b>Ice quarry</span></a>
+      <a class="arena" href="assets/img/map-drydock.webp"><img src="assets/img/map-drydock-sm.webp" alt="Drydock, an orbital cargo bay with a ship in its cradle" loading="lazy" width="1280" height="720"><span><b>Drydock</b>Orbital cargo bay</span></a>
+      <a class="arena" href="assets/img/map-gulch.webp"><img src="assets/img/map-gulch-sm.webp" alt="Gulch, a canyon rail town with a trestle and red sheds" loading="lazy" width="1280" height="720"><span><b>Gulch</b>Canyon rail town</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="block block-arsenal" aria-labelledby="arsenal-title">
+  <div class="wrap arsenal">
+    <div>
+      <h2 id="arsenal-title" class="disp">Pick your poison</h2>
+      <p class="lead">24 barrels in 14 families. Left mouse fires the left side, right mouse fires the right.</p>
+    </div>
+    <ul class="chips" role="list">
+      <li><b>Volley</b>rocket salvo</li>
+      <li><b>Haymaker</b>heavy rocket</li>
+      <li><b>Thumper</b>mortar lob</li>
+      <li><b>Scatterpack</b>cluster bombs</li>
+      <li><b>Furnace</b>flamethrower</li>
+      <li><b>Churn</b>spin-up gatling</li>
+      <li><b>Sunbeam</b>continuous beam</li>
+      <li><b>Arc</b>chain lightning</li>
+      <li><b>Longshot</b>sniper</li>
+      <li><b>Piercer</b>goes through walls</li>
+      <li><b>Skipper</b>ricochet</li>
+      <li><b>Rivet</b>rapid fire</li>
+      <li><b>Pepper</b>shotgun</li>
+      <li><b>Stitch</b>burst rifle</li>
+    </ul>
+  </div>
+</section>
+
+<section id="story" class="block block-story" aria-labelledby="story-title">
+  <div class="wrap story">
+    <div>
+      <h2 id="story-title" class="disp">I missed a game.<br>So I rebuilt it.</h2>
+      <p class="lead">A long time ago I played Guns and Robots with my friends, and those are some of my best gaming memories. When it was gone, I wrote to the developers. Nobody wrote back.</p>
+    </div>
+    <article class="letter" aria-label="A note from Dimitar">
+      <p>Hi, I'm Dimitar. I loved that game, so I started building one from scratch: every model, sound and map in BOLTYARD is made in code, no assets borrowed.</p>
+      <p>It's grown into something real, and I'd like to make it better with other people. If you played Guns and Robots, want to help, or just like robots that fall apart, say hi.</p>
+      <p><strong>If you worked on the original game,</strong> I'd especially love to hear from you.</p>
+      <p class="sig">Dimitar</p>
+    </article>
+  </div>
+</section>
+
+<section class="block block-faq" aria-labelledby="faq-title">
+  <div class="wrap faq">
+    <h2 id="faq-title" class="disp">Questions</h2>
+    <div class="faq-list">
+      <details open><summary>What is BOLTYARD?</summary><p>A fan-made robot arena game that runs in the browser. You build a robot from parts in a garage (chassis, body, head, up to four weapons and two devices), then fight team battles of up to 5v5 in Team Deathmatch, Battery Run, Bomb Squad and King of the Yard.</p></details>
+      <details><summary>Is it a Guns and Robots remake?</summary><p>It's inspired by Guns and Robots, but it isn't a copy and isn't affiliated with that game's makers. Every model, texture, sound, map and line of code was made from scratch.</p></details>
+      <details><summary>Can I play it?</summary><p>Not publicly yet. It's in development and being tested with friends on a private server. Get in touch if you'd like to try it.</p></details>
+      <details><summary>How can I help?</summary><p>Coders (TypeScript, Three.js), 3D and sound artists, level designers, testers and old Guns and Robots pilots are all welcome. Open an issue or send a message, and I'll add you to the game repository.</p></details>
+      <details><summary>What is it built with?</summary><p>TypeScript, Vite, Three.js for rendering and Rapier for physics, plus a Node.js server for online battles. Meshes, textures, sounds and music are all generated in code, so the game ships without a single art file.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="join" class="join" aria-labelledby="join-title">
+  <div class="wrap">
+    <h2 id="join-title" class="disp">Grab a wrench</h2>
+    <p>Artists, coders, testers and old pilots: say hi and I'll add you to the repo.</p>
+    <div class="btns btns-center">
+      <a class="btn btn-ink" href="https://github.com/zurnov/boltyard/issues/new?title=I%27d%20like%20to%20help&body=Hi%20Dimitar%2C%20I%27d%20like%20to%20help%20with%20BOLTYARD.%0A%0AWhat%20I%20can%20do%3A%0A" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>Say hi on GitHub</a>
+      <a class="btn btn-ink" href="https://linkedin.com/in/zurnov" rel="noopener me"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>LinkedIn</a>
+      <a class="btn btn-ink" href="https://zurnov.com" rel="noopener me">zurnov.com</a>
+    </div>
+    <p class="join-small">Or follow along: <a href="https://github.com/zurnov">github.com/zurnov</a></p>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span class="logo">BOLTYARD</span>
+    <p>Made by <a href="https://zurnov.com" rel="me">Dimitar Zurnov</a>. BOLTYARD is an independent fan project. It is not affiliated with, endorsed by or connected to Guns and Robots or its developers and publishers; that name is used only to say what inspired it. All BOLTYARD art, audio and code are original.</p>
+  </div>
+</footer>
+
+<dialog class="lightbox" aria-label="Image viewer"><button class="lb-close" aria-label="Close">×</button></dialog>
+<script src="assets/site.js" defer></script>
+</body>
+</html>

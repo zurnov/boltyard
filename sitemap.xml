@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://zurnov.github.io/boltyard/</loc>
+    <lastmod>2026-11-13</lastmod>
+    <image:image><image:loc>https://zurnov.github.io/boltyard/assets/img/og.jpg</image:loc></image:image>
+    <image:image><image:loc>https://zurnov.github.io/boltyard/assets/img/act-1.webp</image:loc></image:image>
+    <image:image><image:loc>https://zurnov.github.io/boltyard/assets/img/map-wrenfield.webp</image:loc></image:image>
+    <image:image><image:loc>https://zurnov.github.io/boltyard/assets/img/bot-old-stomper.webp</image:loc></image:image>
+    <video:video>
+      <video:thumbnail_loc>https://zurnov.github.io/boltyard/assets/img/og.jpg</video:thumbnail_loc>
+      <video:title>BOLTYARD gameplay trailer</video:title>
+      <video:description>In-engine footage of BOLTYARD, a fan-made robot arena game inspired by Guns and Robots: robots built from parts trading rockets, flamethrowers and gatling fire.</video:description>
+      <video:content_loc>https://zurnov.github.io/boltyard/assets/video/trailer.mp4</video:content_loc>
+    </video:video>
+  </url>
+</urlset>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zurnov.github.io/boltyard/sitemap.xml
