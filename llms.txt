@@ -23,3 +23,5 @@
 ## Pages
 
 - [Home](https://zurnov.github.io/boltyard/): trailer, screenshots, robots, arenas, story, FAQ
+- [Gameplay trailer](https://zurnov.github.io/boltyard/assets/video/trailer.mp4): 51 seconds of in-engine footage
+- [Sitemap](https://zurnov.github.io/boltyard/sitemap.xml)

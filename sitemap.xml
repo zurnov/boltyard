@@ -12,6 +12,9 @@
       <video:title>BOLTYARD gameplay trailer</video:title>
       <video:description>In-engine footage of BOLTYARD, a fan-made robot arena game inspired by Guns and Robots: robots built from parts trading rockets, flamethrowers and gatling fire.</video:description>
       <video:content_loc>https://zurnov.github.io/boltyard/assets/video/trailer.mp4</video:content_loc>
+      <video:duration>51</video:duration>
+      <video:publication_date>2026-11-13</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
     </video:video>
   </url>
 </urlset>
