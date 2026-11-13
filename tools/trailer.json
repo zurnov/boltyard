@@ -1,0 +1,647 @@
+{
+ "cuts": [
+  {
+   "shot": "wrenfield2-crane",
+   "frame": 0,
+   "beats": 8,
+   "speed": 0.9,
+   "fadein": 1.2
+  },
+  {
+   "shot": "frostworks2-dive",
+   "frame": 108,
+   "beats": 8,
+   "speed": 1.0
+  },
+  {
+   "card": "open",
+   "beats": 4,
+   "punch": 1.14,
+   "flash": [
+    [
+     0,
+     0.9
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     14
+    ]
+   ]
+  },
+  {
+   "card": "build",
+   "beats": 2,
+   "punch": 1.18,
+   "flash": [
+    [
+     0,
+     0.8
+    ]
+   ],
+   "hits": [
+    [
+     0,
+     "hit",
+     0.9
+    ]
+   ]
+  },
+  {
+   "shot": "garage-assemble",
+   "frame": 24,
+   "beats": 10,
+   "speed": 1.0,
+   "drops": [
+    42,
+    87,
+    123,
+    156,
+    180,
+    204,
+    228,
+    255
+   ],
+   "crop": 1.06
+  },
+  {
+   "card": "bolt",
+   "beats": 2,
+   "punch": 1.18,
+   "flash": [
+    [
+     0,
+     0.8
+    ]
+   ],
+   "hits": [
+    [
+     0,
+     "hit",
+     0.9
+    ]
+   ]
+  },
+  {
+   "shot": "garage-assemble",
+   "frame": 309,
+   "beats": 2,
+   "speed": 1.0,
+   "drops": [
+    321
+   ],
+   "swap": true,
+   "crop": 1.06,
+   "flash": [
+    [
+     0,
+     0.35
+    ]
+   ],
+   "whoosh": 0.8
+  },
+  {
+   "shot": "garage-assemble",
+   "frame": 429,
+   "beats": 2,
+   "speed": 1.0,
+   "drops": [
+    441
+   ],
+   "swap": true,
+   "crop": 1.06,
+   "flash": [
+    [
+     0,
+     0.35
+    ]
+   ],
+   "whoosh": 0.8
+  },
+  {
+   "shot": "garage-assemble",
+   "frame": 555,
+   "beats": 2,
+   "speed": 1.0,
+   "drops": [
+    567
+   ],
+   "swap": true,
+   "crop": 1.06,
+   "flash": [
+    [
+     0,
+     0.35
+    ]
+   ],
+   "whoosh": 0.8
+  },
+  {
+   "shot": "garage-assemble",
+   "frame": 621,
+   "beats": 1,
+   "speed": 1.5,
+   "drops": [
+    633
+   ],
+   "swap": true,
+   "crop": 1.06,
+   "flash": [
+    [
+     0,
+     0.35
+    ]
+   ],
+   "whoosh": 0.8
+  },
+  {
+   "shot": "garage-assemble",
+   "frame": 681,
+   "beats": 1,
+   "speed": 1.5,
+   "drops": [
+    693
+   ],
+   "swap": true,
+   "crop": 1.06,
+   "flash": [
+    [
+     0,
+     0.35
+    ]
+   ],
+   "whoosh": 0.8
+  },
+  {
+   "shot": "garage-assemble",
+   "frame": 927,
+   "beats": 1,
+   "speed": 1.5,
+   "drops": [
+    939
+   ],
+   "swap": true,
+   "crop": 1.06,
+   "flash": [
+    [
+     0,
+     0.35
+    ]
+   ],
+   "whoosh": 0.8
+  },
+  {
+   "shot": "garage-assemble",
+   "frame": 1047,
+   "beats": 1,
+   "speed": 1.5,
+   "drops": [
+    1059
+   ],
+   "swap": true,
+   "crop": 1.06,
+   "flash": [
+    [
+     0,
+     0.35
+    ]
+   ],
+   "whoosh": 0.8
+  },
+  {
+   "card": "break",
+   "beats": 3,
+   "punch": 1.22,
+   "flash": [
+    [
+     0,
+     1.0
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     22
+    ]
+   ]
+  },
+  {
+   "black": true,
+   "beats": 1
+  },
+  {
+   "shot": "wrenfield2-chase-b",
+   "frame": 98,
+   "beats": 4,
+   "flash": [
+    [
+     0,
+     0.9
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     26
+    ]
+   ],
+   "hits": [
+    [
+     0,
+     "hit",
+     1.1
+    ]
+   ]
+  },
+  {
+   "shot": "drydock2-hero",
+   "frame": 188,
+   "beats": 3,
+   "flash": [
+    [
+     0,
+     0.5
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     20
+    ]
+   ],
+   "whoosh": 0.6
+  },
+  {
+   "shot": "frostworks2-chase-b",
+   "frame": 197,
+   "beats": 3,
+   "flash": [
+    [
+     0,
+     0.4
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     16
+    ]
+   ]
+  },
+  {
+   "shot": "foundry2-hero2",
+   "frame": 216,
+   "beats": 2,
+   "whoosh": 0.6
+  },
+  {
+   "shot": "gulch2-hero2",
+   "frame": 2,
+   "beats": 2,
+   "punch": 1.06
+  },
+  {
+   "shot": "wrenfield2-hero2",
+   "frame": 210,
+   "beats": 3,
+   "shake": [
+    [
+     1.5,
+     18
+    ]
+   ],
+   "whoosh": 0.5
+  },
+  {
+   "shot": "frostworks2-hero",
+   "frame": 83,
+   "beats": 1,
+   "flash": [
+    [
+     0,
+     0.5
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     14
+    ]
+   ]
+  },
+  {
+   "shot": "gulch2-hud",
+   "frame": 99,
+   "beats": 4,
+   "flash": [
+    [
+     0,
+     0.3
+    ]
+   ]
+  },
+  {
+   "shot": "foundry2-chase-b",
+   "frame": 245,
+   "beats": 2,
+   "shake": [
+    [
+     1,
+     22
+    ]
+   ],
+   "whoosh": 0.6
+  },
+  {
+   "shot": "drydock2-duel",
+   "frame": 95,
+   "beats": 4,
+   "zoom": 0.06
+  },
+  {
+   "shot": "frostworks2-chase-a",
+   "frame": 53,
+   "beats": 2,
+   "flash": [
+    [
+     0,
+     0.4
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     14
+    ]
+   ],
+   "whoosh": 0.6
+  },
+  {
+   "shot": "gulch2-chase-b",
+   "frame": 39,
+   "beats": 2,
+   "punch": 1.05
+  },
+  {
+   "shot": "foundry2-orbit",
+   "frame": 0,
+   "beats": 4,
+   "whoosh": 0.5
+  },
+  {
+   "shot": "wrenfield2-chase-b",
+   "frame": 187,
+   "beats": 4,
+   "shake": [
+    [
+     3.5,
+     26
+    ]
+   ],
+   "flash": [
+    [
+     3.5,
+     0.6
+    ]
+   ]
+  },
+  {
+   "shot": "frostworks2-slow",
+   "frame": 0,
+   "beats": 4,
+   "slowsfx": true,
+   "whoosh": 0.8
+  },
+  {
+   "shot": "drydock2-slow",
+   "frame": 4,
+   "beats": 4,
+   "slowsfx": true
+  },
+  {
+   "shot": "foundry2-hero",
+   "frame": 117,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "drydock2-chase-a",
+   "frame": 162,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "wrenfield2-hero2",
+   "frame": 246,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "drydock2-hero",
+   "frame": 186,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "frostworks2-chase-b",
+   "frame": 195,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "foundry2-chase-b",
+   "frame": 267,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "wrenfield2-chase-b",
+   "frame": 279,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "frostworks2-hero",
+   "frame": 81,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "foundry2-crane",
+   "frame": 84,
+   "beats": 4,
+   "flash": [
+    [
+     0,
+     1.0
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     18
+    ]
+   ],
+   "zoom": 0.05,
+   "nosfx": true
+  },
+  {
+   "card": "end",
+   "beats": 8,
+   "punch": 1.12,
+   "flash": [
+    [
+     0,
+     0.9
+    ]
+   ],
+   "fadeout": 0.6,
+   "hits": [
+    [
+     0,
+     "lowboom",
+     1.0
+    ]
+   ]
+  }
+ ],
+ "sections": [
+  [
+   "intro",
+   4
+  ],
+  [
+   "title",
+   1
+  ],
+  [
+   "build",
+   3
+  ],
+  [
+   "swap",
+   3
+  ],
+  [
+   "break",
+   1
+  ],
+  [
+   "drop",
+   10
+  ],
+  [
+   "breakdown",
+   2
+  ],
+  [
+   "riser",
+   1
+  ],
+  [
+   "final",
+   1
+  ],
+  [
+   "end",
+   2
+  ]
+ ]
+}

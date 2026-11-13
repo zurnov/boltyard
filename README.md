@@ -32,6 +32,8 @@ node tools/make-shots.mjs     # writes the shot list (tools/shots.json)
 node tools/capture.mjs        # frames → capture/frames/<shot>/  (needs the game repo next door)
 node tools/cards.mjs          # title cards
 python3 tools/encode.py       # cuts tools/edit.json into assets/video/*.mp4
+python3 tools/flashes.py      # finds muzzle flashes / explosions per frame (for the trailer's sound)
+python3 tools/trailer.py      # beat-synced trailer from tools/trailer.json, with its score (tools/score.js)
 tools/build-robots.sh         # roster + garage images
 python3 tools/zflicker.py     # flags z-fighting (flickering overlapped faces) in the edit's segments
 node tools/zfight.mjs         # same check on fixed map viewpoints, for fixing the maps themselves
