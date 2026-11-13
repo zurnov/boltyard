@@ -238,7 +238,7 @@
    }
   ]
  },
- "assemble": {
+ "morph": {
   "w": 1280,
   "h": 720,
   "fps": 30,
@@ -246,9 +246,74 @@
   "segments": [
    {
     "shot": "garage-assemble",
-    "in": 0.0,
+    "in": 0.275,
     "out": 1.0,
     "speed": 1.15
+   }
+  ]
+ },
+ "arena-wrenfield": {
+  "w": 960,
+  "h": 540,
+  "fps": 30,
+  "crf": 28,
+  "segments": [
+   {
+    "shot": "wrenfield2-crane",
+    "in": 0.05,
+    "out": 0.6
+   }
+  ]
+ },
+ "arena-foundry": {
+  "w": 960,
+  "h": 540,
+  "fps": 30,
+  "crf": 28,
+  "segments": [
+   {
+    "shot": "foundry2-crane",
+    "in": 0.05,
+    "out": 0.6
+   }
+  ]
+ },
+ "arena-frostworks": {
+  "w": 960,
+  "h": 540,
+  "fps": 30,
+  "crf": 28,
+  "segments": [
+   {
+    "shot": "frostworks2-crane",
+    "in": 0.05,
+    "out": 0.6
+   }
+  ]
+ },
+ "arena-drydock": {
+  "w": 960,
+  "h": 540,
+  "fps": 30,
+  "crf": 28,
+  "segments": [
+   {
+    "shot": "drydock2-crane",
+    "in": 0.05,
+    "out": 0.6
+   }
+  ]
+ },
+ "arena-gulch": {
+  "w": 960,
+  "h": 540,
+  "fps": 30,
+  "crf": 28,
+  "segments": [
+   {
+    "shot": "gulch2-crane",
+    "in": 0.05,
+    "out": 0.3
    }
   ]
  }

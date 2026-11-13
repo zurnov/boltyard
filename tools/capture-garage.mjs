@@ -120,6 +120,22 @@ if (only.has('featured')) {
   }
   console.log('featured', featured.length);
 }
+if (only.has('spin')) {
+  // 24-angle turntable per featured build (camera at the portrait's 'b' angle) for the drag-to-spin cards
+  await page.setViewportSize({ width: 1400, height: 1400 });
+  await page.evaluate(() => window.__g.step(10));
+  for (const f of featured) {
+    const dir = join(SITE, 'capture/spin', f.id);
+    rmSync(dir, { recursive: true, force: true });
+    mkdirSync(dir, { recursive: true });
+    await page.evaluate(([b]) => { window.__g.set(null, false); window.__g.set(b, false); window.__g.face(0); window.__g.view({ yaw: -0.6, dist: 9.2, height: 2.6, look: 1.3, fov: 28, spin: 0 }); window.__g.resetTime(); window.__g.step(20); }, [f.l]);
+    for (let k = 0; k < 24; k++) {
+      const data = await page.evaluate((a) => { window.__g.face(a); return window.__g.shot(0.93); }, (k / 24) * Math.PI * 2);
+      save(dir, k, data);
+    }
+  }
+  console.log('spin', featured.length);
+}
 await browser.close();
 await server.close();
 process.exit(0);

@@ -54,7 +54,7 @@ a { color: inherit; }
 .hero-copy { position: relative; z-index: 2; width: 100%; padding-bottom: clamp(48px, 9vh, 96px); padding-top: 120px; }
 .tag { display: inline-block; background: rgba(255,178,46,.14); color: var(--amber); border: 1px solid rgba(255,178,46,.45); padding: 5px 12px; border-radius: 999px; font-size: 13px; font-weight: 800; letter-spacing: .02em; margin-bottom: 20px; }
 .hero h1 { font-size: clamp(60px, 10.5vw, 156px); text-shadow: 0 6px 0 rgba(0,0,0,.35); }
-.hero h1 span { color: var(--amber); }
+.hero h1 .amber { color: var(--amber); }
 .hero-lead { max-width: 560px; font-size: clamp(18px, 2vw, 22px); font-weight: 600; margin-top: 18px; text-shadow: 0 1px 12px rgba(0,0,0,.6); }
 
 /* ---------- buttons (the game's chunky BATTLE button) */
@@ -192,18 +192,102 @@ a { color: inherit; }
 
 /* builds */
 .block-builds { background: var(--bg); }
-.builds-top { display: grid; grid-template-columns: 1fr 1.15fr; gap: clamp(28px, 5vw, 64px); align-items: center; }
 .count { margin-top: 28px; color: var(--ink-dim); font-weight: 800; font-size: 18px; text-transform: uppercase; letter-spacing: .06em; }
-.count span { display: block; color: var(--amber); font-size: clamp(38px, 4.6vw, 64px); letter-spacing: .01em; text-transform: none; line-height: 1.05; margin-bottom: 4px; font-variant-numeric: tabular-nums; }
+.count > span { display: block; white-space: nowrap; color: var(--amber); font-size: clamp(38px, 4.6vw, 64px); letter-spacing: .01em; text-transform: none; line-height: 1.05; margin-bottom: 4px; font-variant-numeric: tabular-nums; }
 .count-note { color: var(--ink-dim); font-size: 14px; margin-top: 8px; max-width: 460px; }
-.assemble { border-radius: 16px; overflow: hidden; border: 3px solid var(--edge); background: #000; aspect-ratio: 16 / 9; box-shadow: 0 30px 60px -24px rgba(0,0,0,.8); }
-.assemble video { width: 100%; height: 100%; object-fit: cover; }
-.wall-title { font-family: var(--display); font-weight: 400; font-size: 28px; margin: 64px 0 18px; }
+.assemble { position: relative; border-radius: 16px; overflow: hidden; border: 3px solid var(--edge); background: #000; aspect-ratio: 16 / 9; box-shadow: 0 30px 60px -24px rgba(0,0,0,.8); }
+.assemble > * { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.wall-title { font-family: var(--display); font-weight: 400; font-size: 28px; margin: 40px 0 18px; }
 .wall { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
 .wall li { position: relative; background: var(--bg-2); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
 .wall img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; transition: transform .4s cubic-bezier(.2,.7,.2,1); }
-.wall li:hover img { transform: scale(1.04); }
 .wall em { position: absolute; top: 12px; left: 12px; font-style: normal; font-weight: 800; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; background: var(--amber); color: var(--edge); padding: 4px 9px; border-radius: 6px; }
 .wall b { font-family: var(--display); font-weight: 400; font-size: 24px; padding: 12px 14px 2px; line-height: 1.1; }
 .wall span { color: var(--ink-dim); font-size: 14px; font-weight: 700; padding: 0 14px 14px; }
-@media (max-width: 860px) { .builds-top { grid-template-columns: 1fr; } .wall { grid-template-columns: repeat(2, 1fr); gap: 12px; } .wall em { position: static; align-self: flex-start; margin: 12px 12px 0; font-size: 11px; } .wall b { font-size: 21px; padding: 6px 12px 2px; } .wall span { font-size: 13px; padding: 0 12px 12px; } }
+@media (max-width: 860px) { .wall { grid-template-columns: repeat(2, 1fr); gap: 12px; } .wall em { position: static; align-self: flex-start; margin: 12px 12px 0; font-size: 11px; } .wall b { font-size: 21px; padding: 6px 12px 2px; } .wall span { font-size: 13px; padding: 0 12px 12px; } }
+
+/* ---------- motion */
+/* hero: the three lines drop in like parts onto the turntable */
+.hero h1 .ln { display: block; overflow: hidden; padding: 0 .06em .12em 0; margin-bottom: -.12em; }
+.hero h1 .ln i { display: block; font-style: normal; animation: drop .9s cubic-bezier(.3,1.45,.5,1) both; }
+.hero h1 .ln:nth-child(2) i { animation-delay: .14s; }
+.hero h1 .ln:nth-child(3) i { animation-delay: .28s; }
+.hero .tag, .hero-lead, .hero .btns { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
+.hero .tag { animation-delay: .05s; } .hero-lead { animation-delay: .55s; } .hero .btns { animation-delay: .68s; }
+.hero-media { animation: settle 2.2s cubic-bezier(.2,.7,.2,1) both; will-change: transform; }
+@keyframes drop { from { transform: translateY(105%); } }
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } }
+@keyframes settle { from { transform: scale(1.14); } to { transform: scale(1.04); } }
+
+/* section titles: a strip of hazard tape wipes the heading on */
+.block h2 { width: fit-content; position: relative; }
+.wipe > .wi { display: inline-block; clip-path: inset(-12% 100% -30% 0); }
+.wipe::after { content: ''; position: absolute; left: 0; right: 0; bottom: -.1em; height: .16em; background: repeating-linear-gradient(-45deg, var(--amber) 0 10px, #1b1610 10px 20px); transform: scaleX(0); transform-origin: left; }
+.wipe.in > .wi { animation: wipe .8s cubic-bezier(.7,0,.2,1) forwards; }
+.wipe.in::after { animation: tape 1.25s cubic-bezier(.7,0,.2,1) forwards; }
+@keyframes wipe { to { clip-path: inset(-12% -2% -30% 0); } }
+@keyframes tape { 0% { transform: scaleX(0); transform-origin: left; } 55% { transform: scaleX(1); transform-origin: left; } 56% { transform-origin: right; } 100% { transform: scaleX(0); transform-origin: right; } }
+
+/* odometer digits */
+.odo-d { display: inline-block; height: 1em; line-height: 1; overflow: hidden; vertical-align: top; }
+.odo-s { display: flex; flex-direction: column; transform: translateY(0); transition: transform 1.6s cubic-bezier(.2,.75,.15,1); }
+.odo-s b { font: inherit; height: 1em; line-height: 1; text-align: center; }
+.run .odo-s { transform: translateY(calc(var(--to) * -1em)); }
+.stats dd, .count > span { line-height: 1; }
+
+/* builds: the robot assembles as you scroll */
+.assembly { position: relative; height: 270vh; margin-top: 28px; }
+.assembly-pin { position: sticky; top: 0; height: 100vh; height: 100svh; display: flex; align-items: center; padding-top: 56px; }
+.assembly-grid { display: grid; grid-template-columns: 1.55fr 1fr; gap: clamp(24px, 4vw, 56px); align-items: center; width: 100%; }
+.assemble canvas { opacity: 0; transition: opacity .3s; }
+.assemble .morph { opacity: 0; transition: opacity .5s; }
+.assembly.live .assemble canvas { opacity: 1; }
+.assembly.done .assemble .morph { opacity: 1; }
+.assemble-bar { position: absolute; left: 0; right: 0; top: auto !important; bottom: 0; height: 6px !important; background: rgba(0,0,0,.5); }
+.assemble-bar i { display: block; height: 100%; width: 100%; background: repeating-linear-gradient(-45deg, var(--amber) 0 10px, var(--amber-lo) 10px 20px); transform: scaleX(var(--p, 0)); transform-origin: left; }
+.parts { list-style: none; padding: 0; display: grid; gap: 4px; counter-reset: p; }
+.parts li { counter-increment: p; display: grid; grid-template-columns: 34px 1fr; column-gap: 12px; padding: 8px 10px; border-radius: 10px; color: var(--ink-dim); opacity: .45; transition: opacity .3s, background .3s, color .3s; }
+.parts li::before { content: counter(p); grid-row: span 2; align-self: center; width: 34px; height: 34px; border-radius: 9px; display: grid; place-items: center; font-family: var(--display); font-size: 18px; background: var(--bg-2); border: 1px solid var(--line); transition: background .3s, color .3s; }
+.parts b { font-family: var(--display); font-weight: 400; font-size: 22px; line-height: 1.15; color: var(--ink); }
+.parts span { font-size: 14px; font-weight: 600; }
+.parts li.on { opacity: 1; }
+.parts li.now { background: var(--bg-2); }
+.parts li.on::before { background: var(--amber); color: var(--edge); border-color: var(--amber); }
+.assembly-side .count { margin-top: 22px; }
+.assembly-side .count > span { font-size: clamp(30px, 3.3vw, 48px); }
+@media (max-width: 860px) {
+  .assembly { height: 240vh; }
+  .assembly-pin { align-items: flex-start; padding-top: 72px; }
+  .assembly-grid { grid-template-columns: 1fr; gap: 14px; }
+  .parts { grid-template-columns: 1fr 1fr; gap: 2px 6px; }
+  .parts li { grid-template-columns: 26px 1fr; column-gap: 8px; padding: 5px 6px; }
+  .parts li::before { width: 26px; height: 26px; font-size: 14px; border-radius: 7px; }
+  .parts b { font-size: 16px; } .parts span { display: none; }
+  .assembly-side .count { margin-top: 10px; font-size: 14px; }
+  .count > span { font-size: clamp(30px, 9vw, 40px); }
+  .count-note { display: none; }
+}
+
+/* featured builds: hover to spin, drag to turn */
+.wall [data-spin] { touch-action: pan-y; }
+.spin { position: absolute; left: 0; right: 0; top: 0; aspect-ratio: 4 / 5; background-size: 2400% 100%; background-repeat: no-repeat; opacity: 0; transition: opacity .2s; cursor: grab; }
+.spin.ready { opacity: 1; }
+.spin:active { cursor: grabbing; }
+.spin-hint { position: absolute; right: 10px; bottom: 10px; z-index: 2; display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); background: rgba(13,11,9,.7); padding: 4px 9px; border-radius: 6px; opacity: 0; transform: translateY(-4px); transition: opacity .25s, transform .25s; pointer-events: none; }
+.spin-hint svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2.4; }
+.wall li:hover .spin-hint, .wall li.touched .spin-hint { opacity: 1; transform: none; }
+.wall em { z-index: 2; }
+@media (max-width: 860px) { .spin-hint { bottom: 6px; right: 6px; font-size: 10px; padding: 3px 7px; } }
+
+/* arenas: hover plays the fly-over */
+.arena video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity .35s; pointer-events: none; }
+.arena video.on { opacity: 1; }
+.arena span { z-index: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero h1 .ln i, .hero .tag, .hero-lead, .hero .btns, .hero-media { animation: none; }
+  .wipe > .wi { clip-path: none; } .wipe::after { display: none; }
+  .odo-s { transition: none; }
+  .assembly { height: auto; } .assembly-pin { position: static; height: auto; padding-top: 0; }
+  .parts li { opacity: 1; }
+}

@@ -25,3 +25,14 @@ webp "$F/garage-assemble/0250.jpg" $O/assemble.webp 1280 78
 ffmpeg -loglevel error -y -i "$(fr wrenfield2-chase-b 70)" -vf "scale=1200:-2:flags=lanczos,crop=1200:630,$GR" -q:v 3 $O/og.jpg
 ffmpeg -loglevel error -y -i "$(fr wrenfield2-hero2 22)" -vf "crop=1080:1080:420:0,scale=180:180:flags=lanczos" $O/apple-touch-icon.png
 du -ch $O/*.webp $O/og.jpg | tail -1
+
+# scroll-scrubbed assembly: garage-assemble frames 24..309 (frame → shell → head → arms → gadgets), every 3rd
+mkdir -p $O/scrub; n=0
+for i in $(seq 24 3 309); do
+  ffmpeg -loglevel error -y -i $(printf "$F/garage-assemble/%04d.jpg" $i) -vf "scale=960:540:flags=lanczos,$GR" -f image2pipe -vcodec png - | cwebp -quiet -q 68 -m 6 -o $(printf "$O/scrub/%03d.webp" $n) -- -; n=$((n+1))
+done
+# drag-to-spin sprites: 24 angles per featured build (node tools/capture-garage.mjs --only=spin)
+mkdir -p $O/spin
+for id in small medium huge twins; do
+  ffmpeg -y -loglevel error -framerate 1 -i capture/spin/$id/%04d.jpg -vf "crop=1120:1400:200:0,scale=480:600:flags=lanczos,$GR,tile=24x1" -frames:v 1 -f image2pipe -vcodec png - | cwebp -quiet -q 72 -m 6 -o $O/spin/$id.webp -- -
+done
