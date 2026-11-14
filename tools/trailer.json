@@ -231,9 +231,9 @@
    "beats": 1
   },
   {
-   "shot": "wrenfield2-chase-b",
-   "frame": 98,
-   "beats": 4,
+   "shot": "drydock2-hero",
+   "frame": 188,
+   "beats": 3,
    "flash": [
     [
      0,
@@ -255,9 +255,9 @@
    ]
   },
   {
-   "shot": "drydock2-hero",
-   "frame": 188,
-   "beats": 3,
+   "shot": "gulch2-chase-a",
+   "frame": 104,
+   "beats": 4,
    "flash": [
     [
      0,
@@ -274,7 +274,7 @@
   },
   {
    "shot": "frostworks2-chase-b",
-   "frame": 197,
+   "frame": 195,
    "beats": 3,
    "flash": [
     [
@@ -290,32 +290,54 @@
    ]
   },
   {
-   "shot": "foundry2-hero2",
-   "frame": 216,
+   "shot": "frostworks2-hero2",
+   "frame": 4,
    "beats": 2,
+   "flash": [
+    [
+     0,
+     0.5
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     18
+    ]
+   ],
    "whoosh": 0.6
   },
   {
-   "shot": "gulch2-hero2",
-   "frame": 2,
-   "beats": 2,
+   "shot": "gulch2-chase-b",
+   "frame": 21,
+   "beats": 3,
    "punch": 1.06
   },
   {
-   "shot": "wrenfield2-hero2",
-   "frame": 210,
+   "shot": "drydock2-chase-a",
+   "frame": 91,
    "beats": 3,
+   "flash": [
+    [
+     0,
+     0.4
+    ]
+   ],
    "shake": [
     [
-     1.5,
-     18
+     0,
+     16
+    ],
+    [
+     2.4,
+     20
     ]
    ],
    "whoosh": 0.5
   },
   {
-   "shot": "frostworks2-hero",
-   "frame": 83,
+   "shot": "foundry2-chase-b",
+   "frame": 33,
    "beats": 1,
    "flash": [
     [
@@ -331,23 +353,29 @@
    ]
   },
   {
-   "shot": "gulch2-hud",
-   "frame": 99,
+   "shot": "drydock2-hud",
+   "frame": 160,
    "beats": 4,
-   "flash": [
+   "shake": [
     [
-     0,
-     0.3
+     1.9,
+     16
     ]
    ]
   },
   {
-   "shot": "foundry2-chase-b",
-   "frame": 245,
+   "shot": "frostworks2-hero2",
+   "frame": 183,
    "beats": 2,
+   "flash": [
+    [
+     0,
+     0.6
+    ]
+   ],
    "shake": [
     [
-     1,
+     0,
      22
     ]
    ],
@@ -355,33 +383,39 @@
   },
   {
    "shot": "drydock2-duel",
-   "frame": 95,
+   "frame": 100,
    "beats": 4,
    "zoom": 0.06
   },
   {
-   "shot": "frostworks2-chase-a",
-   "frame": 53,
+   "shot": "foundry2-chase-a",
+   "frame": 129,
    "beats": 2,
    "flash": [
     [
      0,
-     0.4
+     0.5
     ]
    ],
    "shake": [
     [
      0,
-     14
+     16
     ]
    ],
    "whoosh": 0.6
   },
   {
-   "shot": "gulch2-chase-b",
-   "frame": 39,
-   "beats": 2,
-   "punch": 1.05
+   "shot": "gulch2-hero",
+   "frame": 28,
+   "beats": 1,
+   "punch": 1.05,
+   "flash": [
+    [
+     0,
+     0.3
+    ]
+   ]
   },
   {
    "shot": "foundry2-orbit",
@@ -391,37 +425,95 @@
   },
   {
    "shot": "wrenfield2-chase-b",
-   "frame": 187,
+   "frame": 172,
    "beats": 4,
-   "shake": [
-    [
-     3.5,
-     26
-    ]
-   ],
    "flash": [
     [
-     3.5,
-     0.6
+     0,
+     0.5
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     18
+    ],
+    [
+     1.9,
+     22
     ]
    ]
   },
   {
-   "shot": "frostworks2-slow",
+   "shot": "drydock2-slow",
    "frame": 0,
    "beats": 4,
    "slowsfx": true,
    "whoosh": 0.8
   },
   {
-   "shot": "drydock2-slow",
-   "frame": 4,
+   "shot": "gulch2-slow",
+   "frame": 0,
    "beats": 4,
    "slowsfx": true
   },
   {
-   "shot": "foundry2-hero",
-   "frame": 117,
+   "shot": "foundry2-chase-a",
+   "frame": 127,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "wrenfield2-chase-a",
+   "frame": 133,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "wrenfield2-hero2",
+   "frame": 172,
+   "beats": 0.5,
+   "flash": [
+    [
+     0,
+     0.55
+    ]
+   ],
+   "shake": [
+    [
+     0,
+     12
+    ]
+   ],
+   "nosfx": true
+  },
+  {
+   "shot": "gulch2-hero",
+   "frame": 260,
    "beats": 0.5,
    "flash": [
     [
@@ -439,7 +531,7 @@
   },
   {
    "shot": "drydock2-chase-a",
-   "frame": 162,
+   "frame": 157,
    "beats": 0.5,
    "flash": [
     [
@@ -456,8 +548,8 @@
    "nosfx": true
   },
   {
-   "shot": "wrenfield2-hero2",
-   "frame": 246,
+   "shot": "frostworks2-hero2",
+   "frame": 181,
    "beats": 0.5,
    "flash": [
     [
@@ -492,62 +584,8 @@
    "nosfx": true
   },
   {
-   "shot": "frostworks2-chase-b",
-   "frame": 195,
-   "beats": 0.5,
-   "flash": [
-    [
-     0,
-     0.55
-    ]
-   ],
-   "shake": [
-    [
-     0,
-     12
-    ]
-   ],
-   "nosfx": true
-  },
-  {
-   "shot": "foundry2-chase-b",
-   "frame": 267,
-   "beats": 0.5,
-   "flash": [
-    [
-     0,
-     0.55
-    ]
-   ],
-   "shake": [
-    [
-     0,
-     12
-    ]
-   ],
-   "nosfx": true
-  },
-  {
-   "shot": "wrenfield2-chase-b",
-   "frame": 279,
-   "beats": 0.5,
-   "flash": [
-    [
-     0,
-     0.55
-    ]
-   ],
-   "shake": [
-    [
-     0,
-     12
-    ]
-   ],
-   "nosfx": true
-  },
-  {
-   "shot": "frostworks2-hero",
-   "frame": 81,
+   "shot": "gulch2-chase-a",
+   "frame": 102,
    "beats": 0.5,
    "flash": [
     [
